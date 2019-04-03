@@ -8,5 +8,5 @@ from view import new_email
 
 
 if __name__ == '__main__':
-    new_server = smtp_connect.SmtpConnect('@163.com', '')
+    new_server = smtp_connect.SmtpConnect('test@163.com', '')
     new_mail = new_email.NewEmail(new_server)
